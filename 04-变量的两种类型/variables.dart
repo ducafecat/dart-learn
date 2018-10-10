@@ -8,12 +8,6 @@ void main() {
   // a = ['abc'];
   // print(a);
 
-  // 强类型
-  // String a;
-  // a = 'ducafecat';
-  // a = 123;
-  // print(a);
-
   // 动态定义 dynamic
   // dynamic a = 'doucafecat';
   // a = 123;
@@ -26,9 +20,17 @@ void main() {
   // a = [2222];
   // print(a);
 
-  // 默认值
-  // var a;
+  // 比较 var、dynamic、Object
+  // var a = 'ducafecat';
+  // dynamic a = 'doucafecat';
+  // Object a = 'doucafecat';
+  // a = 123;
+  // print(a);
+
+  // 强类型
   // String a;
+  // a = 'ducafecat';
+  // a = 123;
   // print(a);
 
   // 常用强类型
@@ -39,4 +41,10 @@ void main() {
   // DateTime dt = new DateTime.now();
   // List l = [ a, i, d, b, dt];
   // print(l);
+
+  // 默认值
+  // var a;
+  // String a;
+  // print(a);
+  // assert(a == null);
 }
