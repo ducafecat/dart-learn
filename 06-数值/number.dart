@@ -30,6 +30,11 @@ void main() {
   // String b = 1.223.toString();
   // print([a, b]);
 
+  // double -> int
+  // double a = 1.8;
+  // int b = a.toInt();
+  // print(b);
+
 
   // 位运算
 
