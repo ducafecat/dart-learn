@@ -6,6 +6,7 @@ void main() {
   // const String a = 'ducafecat';
   // const a = 'ducafecat';
 
+
   // 初始后不能再赋值
   // final a = 'ducafecat';
   // a = 'abc';
@@ -13,13 +14,16 @@ void main() {
   // const a = 'ducafecat';
   // a = 'abc';
 
+
   // 不能和 var 同时使用
   // final var a = 'ducafecat';
   // const var a = 'ducafecat';
 
+
   // const 赋值 申明可省略
   // const List ls = const [11, 22, 33];
   // const List ls = [11, 22, 33];
+
 
   // 比较 1 - 需要确定的值
   // final dt = DateTime.now();
@@ -27,6 +31,7 @@ void main() {
   //
   // const dt = const DateTime.now();
   // print(dt);
+
 
   // 比较 2 - 不可变性可传递
   // final List ls = [11, 22, 33];
@@ -36,6 +41,7 @@ void main() {
   // const List ls = [11, 22, 33];
   // ls[1] = 44;
   // print(ls);
+
 
   // 比较 3 - 内存中重复创建
   // final a1 = [11 , 22];
