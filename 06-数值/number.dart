@@ -45,7 +45,6 @@ void main() {
   // var z = 123;
   // var result = a & b & c;
   // print(result);
-  // assert(z == result); // assert 断言
 
   // | 或运算 , 可以用在常量组合
   // const USE_LEFT = 0x1;
