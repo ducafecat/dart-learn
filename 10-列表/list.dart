@@ -30,6 +30,7 @@ void main() {
   // print(l.length);
   // print(l.isEmpty);
   // print(l.isNotEmpty);
+  // print(l.reversed);
 
 
   // 方法
@@ -77,8 +78,7 @@ void main() {
   // print(dtList);
   // dtList.sort((a, b) => a.compareTo(b));
   // print(dtList);
-  // 反正
-  // print(dtList.reversed);
+
 
   // 复制子列表
   // print(l);
