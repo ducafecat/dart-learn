@@ -13,6 +13,7 @@ void main() {
   // dynamic a = 'doucafecat';
   // a = 123;
   // a = [1111];
+  // a.p();
   // print(a);
 
 
@@ -20,6 +21,7 @@ void main() {
   // Object a = 'doucafecat';
   // a = 123;
   // a = [2222];
+  // a.p();
   // print(a);
 
 
