@@ -1,9 +1,12 @@
-// void main() {
-//   var p = AndroidPhone(12345678);
-//   p.showNumber();
-//   // p.startup();
-//   // p.shutdown();
-// }
+void main() {
+  // var p = AndroidPhone(12345678);
+  // p.showNumber();
+
+  // dynamic p = AndroidPhone(12345678);
+  // p.showNumber111();
+  // p.startup();
+  // p.shutdown();
+}
 
 // class Phone {
 //   void startup() {
@@ -25,6 +28,12 @@
 
 // class AndroidPhone extends Mobile {
 //   AndroidPhone(int number) : super(number);
+
+//   @override
+//   void noSuchMethod(Invocation mirror) {
+//     print('被重写 noSuchMethod');
+//   }
+
 //   // // int signal;
 //   // void startup() {
 //   //   super.startup();
