@@ -10,4 +10,10 @@ abstract class Phone {
 }
 
 class AndroidPhone extends Phone {
+  void startup() {
+    print('开机');
+  }
+  void shutdown() {
+    print('关机');
+  }
 }
