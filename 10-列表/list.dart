@@ -6,7 +6,7 @@ void main() {
 
   // 声明
 
-  // 定长
+  // 自动
   // List<int> l = new List();
   // l
   // ..add(1)
@@ -14,7 +14,7 @@ void main() {
   // ..add(3);
   // print(l);
 
-  // 自动
+  // 定长
   // List<int> l = new List(3);
   // // print(l[0]);
   // l[0] = 1;
